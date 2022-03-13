@@ -1,0 +1,563 @@
+2022-03-13 06:18:58 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-03-13 06:18:58 Bonocoin version v0.15.1.0-0b47699b9-dirty
+2022-03-13 06:18:58 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-03-13 06:18:58 Assuming ancestors of block 59c9b9d3fec105bdc716d84caa7579503d5b05b73618d0bf2d5fa639f780a011 have valid signatures.
+2022-03-13 06:18:58 Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2022-03-13 06:18:58 Using the 'standard' SHA256 implementation
+2022-03-13 06:18:58 Using RdRand as an additional entropy source
+2022-03-13 06:18:58 Default data directory C:\users\ubuntu\Application Data\Bonocoin
+2022-03-13 06:18:58 Using data directory Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data
+2022-03-13 06:18:58 Using config file Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data/home/ubuntu/workspace/bonocoin_daemon_aws/bonocoin_win_bin
+2022-03-13 06:18:58 Using at most 125 automatic connections (2048 file descriptors available)
+2022-03-13 06:18:58 Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2022-03-13 06:18:58 Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2022-03-13 06:18:58 Using 0 threads for script verification
+2022-03-13 06:18:58 libevent: getaddrinfo: nodename nor servname provided, or not known
+2022-03-13 06:18:58 Binding RPC on address ::1 port 9554 failed.
+2022-03-13 06:18:58 HTTP: creating work queue of depth 16
+2022-03-13 06:18:58 No rpcpassword set - using random cookie authentication
+2022-03-13 06:18:58 Generated RPC authentication cookie Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\.cookie
+2022-03-13 06:18:58 HTTP: starting 4 worker threads
+2022-03-13 06:18:58 scheduler thread start
+2022-03-13 06:18:58 init message: Verifying wallet(s)...
+2022-03-13 06:18:58 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2022-03-13 06:18:58 Using wallet wallet.dat
+2022-03-13 06:18:58 CDBEnv::Open: LogDir=Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\database ErrorFile=Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\db.log
+2022-03-13 06:18:58 Cache configuration:
+2022-03-13 06:18:58 * Using 2.0MiB for block index database
+2022-03-13 06:18:58 * Using 8.0MiB for chain state database
+2022-03-13 06:18:58 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2022-03-13 06:18:58 init message: Loading block index...
+2022-03-13 06:18:58 Opening LevelDB in Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\blocks\index
+2022-03-13 06:18:58 Opened LevelDB successfully
+2022-03-13 06:18:58 Using obfuscation key for Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\blocks\index: 0000000000000000
+2022-03-13 06:18:58 LoadBlockIndexDB: last block file = 0
+2022-03-13 06:18:58 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2022-03-13 06:18:58 Checking all blk files are present...
+2022-03-13 06:18:58 LoadBlockIndexDB: transaction index disabled
+2022-03-13 06:18:58 Initializing databases...
+2022-03-13 06:18:58 Pre-allocating up to position 0x1000000 in blk00000.dat
+2022-03-13 06:18:58 Opening LevelDB in Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\chainstate
+2022-03-13 06:18:58 Opened LevelDB successfully
+2022-03-13 06:18:58 Using obfuscation key for Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\chainstate: 51c35156e49c9143
+2022-03-13 06:18:58 init message: Rewinding blocks...
+2022-03-13 06:18:58  block index              22ms
+2022-03-13 06:18:58 init message: Loading wallet...
+2022-03-13 06:18:58 nFileVersion = 150100
+2022-03-13 06:18:58 Keys: 2002 plaintext, 0 encrypted, 2002 w/ metadata, 2002 total
+2022-03-13 06:18:58  wallet                   51ms
+2022-03-13 06:18:58 setKeyPool.size() = 2000
+2022-03-13 06:18:58 mapWallet.size() = 0
+2022-03-13 06:18:58 mapAddressBook.size() = 1
+2022-03-13 06:18:58 UpdateTip: new best=008d9de850c57af35504658f408ef6dcf2e026101b0d0b6ae51dd4d0ec11bb40 height=0 version=0x00000001 log2_work=20.000022 tx=1 date='2022-03-12 07:00:00' progress=1.000000 cache=0.0MiB(0txo)
+2022-03-13 06:18:58 mapBlockIndex.size() = 1
+2022-03-13 06:18:58 nBestHeight = 0
+2022-03-13 06:18:58 Failed to open mempool file from disk. Continuing anyway.
+2022-03-13 06:18:58 Bound to [::]:9555
+2022-03-13 06:18:58 Bound to 0.0.0.0:9555
+2022-03-13 06:18:58 init message: Loading P2P addresses...
+2022-03-13 06:18:58 torcontrol thread start
+2022-03-13 06:18:58 Loaded 1 addresses from peers.dat  1ms
+2022-03-13 06:18:58 init message: Loading banlist...
+2022-03-13 06:18:58 init message: Starting network threads...
+2022-03-13 06:18:58 init message: Done loading
+2022-03-13 06:18:58 opencon thread start
+2022-03-13 06:18:58 addcon thread start
+2022-03-13 06:18:58 dnsseed thread start
+2022-03-13 06:18:58 net thread start
+2022-03-13 06:18:58 msghand thread start
+2022-03-13 06:18:58 receive version message: /BonocoinCore:0.15.1/: version 70015, blocks=2, us=3.36.111.166:9555, peer=0
+2022-03-13 06:18:58 Leaving InitialBlockDownload (latching to false)
+2022-03-13 06:18:58 Pre-allocating up to position 0x100000 in rev00000.dat
+2022-03-13 06:18:58 UpdateTip: new best=31800f411616e65a13843b5a97200916a4a3f49a93c4dd2958c1c379589c8b1b height=1 version=0x20000000 log2_work=21.000022 tx=2 date='2022-03-12 12:53:28' progress=1.000000 cache=0.0MiB(1txo)
+2022-03-13 06:18:59 UpdateTip: new best=671a5192c2a8b0d06d272f281bc6c2473eec18eda3236e2a2900ab9a4a12fef7 height=2 version=0x20000000 log2_work=21.584985 tx=3 date='2022-03-12 13:53:53' progress=1.000000 cache=0.0MiB(2txo)
+2022-03-13 06:18:59 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:18:59 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:19:01 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:19:01 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:19:03 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:19:03 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:19:06 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:19:06 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:19:09 Loading addresses from DNS seeds (could take a while)
+2022-03-13 06:19:09 0 addresses found from DNS seeds
+2022-03-13 06:19:09 dnsseed thread exit
+2022-03-13 06:19:11 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:19:11 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:19:29 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-03-13 06:19:29 Bonocoin version v0.15.1.0-0b47699b9-dirty
+2022-03-13 06:19:29 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-03-13 06:19:29 Assuming ancestors of block 59c9b9d3fec105bdc716d84caa7579503d5b05b73618d0bf2d5fa639f780a011 have valid signatures.
+2022-03-13 06:19:29 Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2022-03-13 06:19:29 Using the 'standard' SHA256 implementation
+2022-03-13 06:19:29 Using RdRand as an additional entropy source
+2022-03-13 06:19:29 Default data directory C:\users\ubuntu\Application Data\Bonocoin
+2022-03-13 06:19:29 Using data directory Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data
+2022-03-13 06:19:29 Using config file Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data/home/ubuntu/workspace/bonocoin_daemon_aws/bonocoin_win_bin
+2022-03-13 06:19:29 Using at most 125 automatic connections (2048 file descriptors available)
+2022-03-13 06:19:29 Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2022-03-13 06:19:29 Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2022-03-13 06:19:29 Using 0 threads for script verification
+2022-03-13 06:19:29 libevent: getaddrinfo: nodename nor servname provided, or not known
+2022-03-13 06:19:29 Binding RPC on address ::1 port 9554 failed.
+2022-03-13 06:19:29 HTTP: creating work queue of depth 16
+2022-03-13 06:19:29 No rpcpassword set - using random cookie authentication
+2022-03-13 06:19:29 Generated RPC authentication cookie Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\.cookie
+2022-03-13 06:19:29 HTTP: starting 4 worker threads
+2022-03-13 06:19:29 scheduler thread start
+2022-03-13 06:19:29 init message: Verifying wallet(s)...
+2022-03-13 06:19:29 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2022-03-13 06:19:29 Using wallet wallet.dat
+2022-03-13 06:19:29 CDBEnv::Open: LogDir=Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\database ErrorFile=Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\db.log
+2022-03-13 06:19:29 Cache configuration:
+2022-03-13 06:19:29 * Using 2.0MiB for block index database
+2022-03-13 06:19:29 * Using 8.0MiB for chain state database
+2022-03-13 06:19:29 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2022-03-13 06:19:29 init message: Loading block index...
+2022-03-13 06:19:29 Opening LevelDB in Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\blocks\index
+2022-03-13 06:19:29 Opened LevelDB successfully
+2022-03-13 06:19:29 Using obfuscation key for Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\blocks\index: 0000000000000000
+2022-03-13 06:19:29 LoadBlockIndexDB: last block file = 0
+2022-03-13 06:19:29 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2022-03-13 06:19:29 Checking all blk files are present...
+2022-03-13 06:19:29 LoadBlockIndexDB: transaction index disabled
+2022-03-13 06:19:29 Initializing databases...
+2022-03-13 06:19:29 Pre-allocating up to position 0x1000000 in blk00000.dat
+2022-03-13 06:19:29 Opening LevelDB in Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\chainstate
+2022-03-13 06:19:29 Opened LevelDB successfully
+2022-03-13 06:19:29 Using obfuscation key for Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\chainstate: 51c35156e49c9143
+2022-03-13 06:19:29 init message: Rewinding blocks...
+2022-03-13 06:19:29  block index              19ms
+2022-03-13 06:19:29 init message: Loading wallet...
+2022-03-13 06:19:29 nFileVersion = 150100
+2022-03-13 06:19:29 Keys: 2002 plaintext, 0 encrypted, 2002 w/ metadata, 2002 total
+2022-03-13 06:19:29  wallet                   51ms
+2022-03-13 06:19:29 setKeyPool.size() = 2000
+2022-03-13 06:19:29 mapWallet.size() = 0
+2022-03-13 06:19:29 mapAddressBook.size() = 1
+2022-03-13 06:19:29 UpdateTip: new best=008d9de850c57af35504658f408ef6dcf2e026101b0d0b6ae51dd4d0ec11bb40 height=0 version=0x00000001 log2_work=20.000022 tx=1 date='2022-03-12 07:00:00' progress=1.000000 cache=0.0MiB(0txo)
+2022-03-13 06:19:29 mapBlockIndex.size() = 1
+2022-03-13 06:19:29 nBestHeight = 0
+2022-03-13 06:19:29 Failed to open mempool file from disk. Continuing anyway.
+2022-03-13 06:19:29 Bound to [::]:9555
+2022-03-13 06:19:29 Bound to 0.0.0.0:9555
+2022-03-13 06:19:29 init message: Loading P2P addresses...
+2022-03-13 06:19:29 Loaded 1 addresses from peers.dat  0ms
+2022-03-13 06:19:29 init message: Loading banlist...
+2022-03-13 06:19:29 init message: Starting network threads...
+2022-03-13 06:19:29 init message: Done loading
+2022-03-13 06:19:29 torcontrol thread start
+2022-03-13 06:19:29 msghand thread start
+2022-03-13 06:19:29 opencon thread start
+2022-03-13 06:19:29 addcon thread start
+2022-03-13 06:19:29 dnsseed thread start
+2022-03-13 06:19:29 net thread start
+2022-03-13 06:19:30 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:19:30 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:19:32 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:19:32 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:19:33 receive version message: /BonocoinCore:0.15.1/: version 70015, blocks=2, us=3.36.111.166:9555, peer=0
+2022-03-13 06:19:33 Leaving InitialBlockDownload (latching to false)
+2022-03-13 06:19:33 Pre-allocating up to position 0x100000 in rev00000.dat
+2022-03-13 06:19:33 UpdateTip: new best=31800f411616e65a13843b5a97200916a4a3f49a93c4dd2958c1c379589c8b1b height=1 version=0x20000000 log2_work=21.000022 tx=2 date='2022-03-12 12:53:28' progress=1.000000 cache=0.0MiB(1txo)
+2022-03-13 06:19:33 UpdateTip: new best=671a5192c2a8b0d06d272f281bc6c2473eec18eda3236e2a2900ab9a4a12fef7 height=2 version=0x20000000 log2_work=21.584985 tx=3 date='2022-03-12 13:53:53' progress=1.000000 cache=0.0MiB(2txo)
+2022-03-13 06:19:34 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:19:34 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:19:37 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:19:37 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:19:40 Loading addresses from DNS seeds (could take a while)
+2022-03-13 06:19:40 0 addresses found from DNS seeds
+2022-03-13 06:19:40 dnsseed thread exit
+2022-03-13 06:19:42 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:19:42 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:19:50 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:19:50 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:22:20 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:22:20 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:29:14 Potential stale tip detected, will try using extra outbound peer (last tip update: 581 seconds ago)
+2022-03-13 06:32:14 Potential stale tip detected, will try using extra outbound peer (last tip update: 761 seconds ago)
+2022-03-13 06:34:03 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:34:03 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:34:51 receive version message: /BonocoinCore:0.15.1/: version 70015, blocks=2, us=3.36.111.166:9555, peer=1
+2022-03-13 06:35:14 Potential stale tip detected, will try using extra outbound peer (last tip update: 941 seconds ago)
+2022-03-13 06:37:25 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-03-13 06:37:25 Bonocoin version v0.15.1.0-0b47699b9-dirty
+2022-03-13 06:37:25 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-03-13 06:37:25 Assuming ancestors of block 59c9b9d3fec105bdc716d84caa7579503d5b05b73618d0bf2d5fa639f780a011 have valid signatures.
+2022-03-13 06:37:25 Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2022-03-13 06:37:25 Using the 'standard' SHA256 implementation
+2022-03-13 06:37:25 Using RdRand as an additional entropy source
+2022-03-13 06:37:25 Default data directory C:\users\ubuntu\Application Data\Bonocoin
+2022-03-13 06:37:25 Using data directory Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data
+2022-03-13 06:37:25 Using config file Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data/home/ubuntu/workspace/bonocoin_daemon_aws/bonocoin_win_bin
+2022-03-13 06:37:25 Using at most 125 automatic connections (2048 file descriptors available)
+2022-03-13 06:37:25 Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2022-03-13 06:37:25 Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2022-03-13 06:37:25 Using 0 threads for script verification
+2022-03-13 06:37:25 libevent: getaddrinfo: nodename nor servname provided, or not known
+2022-03-13 06:37:25 Binding RPC on address ::1 port 9554 failed.
+2022-03-13 06:37:25 HTTP: creating work queue of depth 16
+2022-03-13 06:37:25 No rpcpassword set - using random cookie authentication
+2022-03-13 06:37:25 Generated RPC authentication cookie Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\.cookie
+2022-03-13 06:37:25 HTTP: starting 4 worker threads
+2022-03-13 06:37:25 scheduler thread start
+2022-03-13 06:37:25 init message: Verifying wallet(s)...
+2022-03-13 06:37:25 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2022-03-13 06:37:25 Using wallet wallet.dat
+2022-03-13 06:37:25 CDBEnv::Open: LogDir=Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\database ErrorFile=Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\db.log
+2022-03-13 06:37:25 Cache configuration:
+2022-03-13 06:37:25 * Using 2.0MiB for block index database
+2022-03-13 06:37:25 * Using 8.0MiB for chain state database
+2022-03-13 06:37:25 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2022-03-13 06:37:25 init message: Loading block index...
+2022-03-13 06:37:25 Opening LevelDB in Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\blocks\index
+2022-03-13 06:37:25 Opened LevelDB successfully
+2022-03-13 06:37:25 Using obfuscation key for Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\blocks\index: 0000000000000000
+2022-03-13 06:37:25 LoadBlockIndexDB: last block file = 0
+2022-03-13 06:37:25 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2022-03-13 06:37:25 Checking all blk files are present...
+2022-03-13 06:37:25 LoadBlockIndexDB: transaction index disabled
+2022-03-13 06:37:25 Initializing databases...
+2022-03-13 06:37:25 Pre-allocating up to position 0x1000000 in blk00000.dat
+2022-03-13 06:37:25 Opening LevelDB in Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\chainstate
+2022-03-13 06:37:25 Opened LevelDB successfully
+2022-03-13 06:37:25 Using obfuscation key for Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\chainstate: 51c35156e49c9143
+2022-03-13 06:37:25 init message: Rewinding blocks...
+2022-03-13 06:37:25  block index              20ms
+2022-03-13 06:37:25 init message: Loading wallet...
+2022-03-13 06:37:25 nFileVersion = 150100
+2022-03-13 06:37:25 Keys: 2002 plaintext, 0 encrypted, 2002 w/ metadata, 2002 total
+2022-03-13 06:37:25  wallet                   49ms
+2022-03-13 06:37:25 setKeyPool.size() = 2000
+2022-03-13 06:37:25 mapWallet.size() = 0
+2022-03-13 06:37:25 mapAddressBook.size() = 1
+2022-03-13 06:37:25 UpdateTip: new best=008d9de850c57af35504658f408ef6dcf2e026101b0d0b6ae51dd4d0ec11bb40 height=0 version=0x00000001 log2_work=20.000022 tx=1 date='2022-03-12 07:00:00' progress=1.000000 cache=0.0MiB(0txo)
+2022-03-13 06:37:25 mapBlockIndex.size() = 1
+2022-03-13 06:37:25 nBestHeight = 0
+2022-03-13 06:37:25 Failed to open mempool file from disk. Continuing anyway.
+2022-03-13 06:37:25 Bound to [::]:9555
+2022-03-13 06:37:25 Bound to 0.0.0.0:9555
+2022-03-13 06:37:25 init message: Loading P2P addresses...
+2022-03-13 06:37:25 Loaded 1 addresses from peers.dat  0ms
+2022-03-13 06:37:25 init message: Loading banlist...
+2022-03-13 06:37:25 init message: Starting network threads...
+2022-03-13 06:37:25 torcontrol thread start
+2022-03-13 06:37:25 init message: Done loading
+2022-03-13 06:37:25 msghand thread start
+2022-03-13 06:37:25 opencon thread start
+2022-03-13 06:37:25 addcon thread start
+2022-03-13 06:37:25 dnsseed thread start
+2022-03-13 06:37:25 net thread start
+2022-03-13 06:37:26 receive version message: /BonocoinCore:0.15.1/: version 70015, blocks=2, us=3.36.111.166:9555, peer=0
+2022-03-13 06:37:26 Leaving InitialBlockDownload (latching to false)
+2022-03-13 06:37:26 Pre-allocating up to position 0x100000 in rev00000.dat
+2022-03-13 06:37:26 UpdateTip: new best=31800f411616e65a13843b5a97200916a4a3f49a93c4dd2958c1c379589c8b1b height=1 version=0x20000000 log2_work=21.000022 tx=2 date='2022-03-12 12:53:28' progress=1.000000 cache=0.0MiB(1txo)
+2022-03-13 06:37:26 UpdateTip: new best=671a5192c2a8b0d06d272f281bc6c2473eec18eda3236e2a2900ab9a4a12fef7 height=2 version=0x20000000 log2_work=21.584985 tx=3 date='2022-03-12 13:53:53' progress=1.000000 cache=0.0MiB(2txo)
+2022-03-13 06:37:26 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:37:26 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:37:28 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:37:28 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:37:28 receive version message: /BonocoinCore:0.15.1/: version 70015, blocks=2, us=3.36.111.166:9555, peer=1
+2022-03-13 06:37:30 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:37:30 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:37:34 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:37:34 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:37:36 P2P peers available. Skipped DNS seeding.
+2022-03-13 06:37:36 dnsseed thread exit
+2022-03-13 06:37:39 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:37:39 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:37:46 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:37:46 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:37:58 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:37:58 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:38:15 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:38:15 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:38:40 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:38:40 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:39:19 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:39:19 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:40:16 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:40:16 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:41:43 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:41:43 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:42:20 receive version message: /BonocoinCore:0.15.1/: version 70015, blocks=2, us=3.36.111.166:9555, peer=2
+2022-03-13 06:43:02 UpdateTip: new best=c0ee5f8f3bc51330c454290013c5e7746b9796e4500a513551622634ac8538da height=3 version=0x20000000 log2_work=22.000022 tx=4 date='2022-03-13 06:43:05' progress=1.000000 cache=0.0MiB(3txo)
+2022-03-13 06:43:53 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:43:53 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:47:07 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:47:07 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:51:49 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-03-13 06:51:49 Bonocoin version v0.15.1.0-0b47699b9-dirty
+2022-03-13 06:51:49 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-03-13 06:51:49 Assuming ancestors of block 59c9b9d3fec105bdc716d84caa7579503d5b05b73618d0bf2d5fa639f780a011 have valid signatures.
+2022-03-13 06:51:49 Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2022-03-13 06:51:49 Using the 'standard' SHA256 implementation
+2022-03-13 06:51:49 Using RdRand as an additional entropy source
+2022-03-13 06:51:49 Default data directory C:\users\ubuntu\Application Data\Bonocoin
+2022-03-13 06:51:49 Using data directory Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data
+2022-03-13 06:51:49 Using config file Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data/home/ubuntu/workspace/bonocoin_daemon_aws/bonocoin_win_bin
+2022-03-13 06:51:49 Using at most 125 automatic connections (2048 file descriptors available)
+2022-03-13 06:51:49 Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2022-03-13 06:51:49 Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2022-03-13 06:51:49 Using 0 threads for script verification
+2022-03-13 06:51:49 libevent: getaddrinfo: nodename nor servname provided, or not known
+2022-03-13 06:51:49 Binding RPC on address ::1 port 9554 failed.
+2022-03-13 06:51:49 HTTP: creating work queue of depth 16
+2022-03-13 06:51:49 No rpcpassword set - using random cookie authentication
+2022-03-13 06:51:49 Generated RPC authentication cookie Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\.cookie
+2022-03-13 06:51:49 HTTP: starting 4 worker threads
+2022-03-13 06:51:49 scheduler thread start
+2022-03-13 06:51:49 init message: Verifying wallet(s)...
+2022-03-13 06:51:49 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2022-03-13 06:51:49 Using wallet wallet.dat
+2022-03-13 06:51:49 CDBEnv::Open: LogDir=Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\database ErrorFile=Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\db.log
+2022-03-13 06:51:49 Cache configuration:
+2022-03-13 06:51:49 * Using 2.0MiB for block index database
+2022-03-13 06:51:49 * Using 8.0MiB for chain state database
+2022-03-13 06:51:49 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2022-03-13 06:51:49 init message: Loading block index...
+2022-03-13 06:51:49 Opening LevelDB in Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\blocks\index
+2022-03-13 06:51:49 Opened LevelDB successfully
+2022-03-13 06:51:49 Using obfuscation key for Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\blocks\index: 0000000000000000
+2022-03-13 06:51:49 LoadBlockIndexDB: last block file = 0
+2022-03-13 06:51:49 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2022-03-13 06:51:49 Checking all blk files are present...
+2022-03-13 06:51:49 LoadBlockIndexDB: transaction index disabled
+2022-03-13 06:51:49 Initializing databases...
+2022-03-13 06:51:49 Pre-allocating up to position 0x1000000 in blk00000.dat
+2022-03-13 06:51:49 Opening LevelDB in Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\chainstate
+2022-03-13 06:51:49 Opened LevelDB successfully
+2022-03-13 06:51:49 Using obfuscation key for Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\chainstate: 51c35156e49c9143
+2022-03-13 06:51:49 init message: Rewinding blocks...
+2022-03-13 06:51:49  block index              18ms
+2022-03-13 06:51:49 init message: Loading wallet...
+2022-03-13 06:51:49 nFileVersion = 150100
+2022-03-13 06:51:49 Keys: 2002 plaintext, 0 encrypted, 2002 w/ metadata, 2002 total
+2022-03-13 06:51:49  wallet                   50ms
+2022-03-13 06:51:49 setKeyPool.size() = 2000
+2022-03-13 06:51:49 mapWallet.size() = 0
+2022-03-13 06:51:49 mapAddressBook.size() = 1
+2022-03-13 06:51:49 UpdateTip: new best=008d9de850c57af35504658f408ef6dcf2e026101b0d0b6ae51dd4d0ec11bb40 height=0 version=0x00000001 log2_work=20.000022 tx=1 date='2022-03-12 07:00:00' progress=1.000000 cache=0.0MiB(0txo)
+2022-03-13 06:51:49 mapBlockIndex.size() = 1
+2022-03-13 06:51:49 nBestHeight = 0
+2022-03-13 06:51:49 Failed to open mempool file from disk. Continuing anyway.
+2022-03-13 06:51:49 Bound to [::]:9555
+2022-03-13 06:51:49 Bound to 0.0.0.0:9555
+2022-03-13 06:51:49 init message: Loading P2P addresses...
+2022-03-13 06:51:49 Loaded 1 addresses from peers.dat  1ms
+2022-03-13 06:51:49 init message: Loading banlist...
+2022-03-13 06:51:49 init message: Starting network threads...
+2022-03-13 06:51:49 init message: Done loading
+2022-03-13 06:51:49 torcontrol thread start
+2022-03-13 06:51:49 opencon thread start
+2022-03-13 06:51:49 msghand thread start
+2022-03-13 06:51:49 addcon thread start
+2022-03-13 06:51:49 dnsseed thread start
+2022-03-13 06:51:49 net thread start
+2022-03-13 06:51:50 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:51:50 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:51:52 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:51:52 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:51:52 receive version message: /BonocoinCore:0.15.1/: version 70015, blocks=3, us=3.36.111.166:9555, peer=0
+2022-03-13 06:51:52 receive version message: /BonocoinCore:0.15.1/: version 70015, blocks=3, us=3.36.111.166:9555, peer=1
+2022-03-13 06:51:52 Leaving InitialBlockDownload (latching to false)
+2022-03-13 06:51:52 Pre-allocating up to position 0x100000 in rev00000.dat
+2022-03-13 06:51:52 UpdateTip: new best=31800f411616e65a13843b5a97200916a4a3f49a93c4dd2958c1c379589c8b1b height=1 version=0x20000000 log2_work=21.000022 tx=2 date='2022-03-12 12:53:28' progress=1.000000 cache=0.0MiB(1txo)
+2022-03-13 06:51:52 UpdateTip: new best=671a5192c2a8b0d06d272f281bc6c2473eec18eda3236e2a2900ab9a4a12fef7 height=2 version=0x20000000 log2_work=21.584985 tx=3 date='2022-03-12 13:53:53' progress=1.000000 cache=0.0MiB(2txo)
+2022-03-13 06:51:52 UpdateTip: new best=c0ee5f8f3bc51330c454290013c5e7746b9796e4500a513551622634ac8538da height=3 version=0x20000000 log2_work=22.000022 tx=4 date='2022-03-13 06:43:05' progress=1.000000 cache=0.0MiB(3txo)
+2022-03-13 06:51:54 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:51:54 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:51:57 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:51:57 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:52:00 P2P peers available. Skipped DNS seeding.
+2022-03-13 06:52:00 dnsseed thread exit
+2022-03-13 06:52:02 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:52:02 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:52:16 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-03-13 06:52:16 Bonocoin version v0.15.1.0-0b47699b9-dirty
+2022-03-13 06:52:16 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-03-13 06:52:16 Assuming ancestors of block 59c9b9d3fec105bdc716d84caa7579503d5b05b73618d0bf2d5fa639f780a011 have valid signatures.
+2022-03-13 06:52:16 Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2022-03-13 06:52:16 Using the 'standard' SHA256 implementation
+2022-03-13 06:52:16 Using RdRand as an additional entropy source
+2022-03-13 06:52:16 Default data directory C:\users\ubuntu\Application Data\Bonocoin
+2022-03-13 06:52:16 Using data directory Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data
+2022-03-13 06:52:16 Using config file Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data/home/ubuntu/workspace/bonocoin_daemon_aws/bonocoin_win_bin
+2022-03-13 06:52:16 Using at most 125 automatic connections (2048 file descriptors available)
+2022-03-13 06:52:16 Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2022-03-13 06:52:16 Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2022-03-13 06:52:16 Using 0 threads for script verification
+2022-03-13 06:52:16 libevent: getaddrinfo: nodename nor servname provided, or not known
+2022-03-13 06:52:16 Binding RPC on address ::1 port 9554 failed.
+2022-03-13 06:52:16 HTTP: creating work queue of depth 16
+2022-03-13 06:52:16 No rpcpassword set - using random cookie authentication
+2022-03-13 06:52:16 Generated RPC authentication cookie Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\.cookie
+2022-03-13 06:52:16 HTTP: starting 4 worker threads
+2022-03-13 06:52:16 scheduler thread start
+2022-03-13 06:52:16 init message: Verifying wallet(s)...
+2022-03-13 06:52:16 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2022-03-13 06:52:16 Using wallet wallet.dat
+2022-03-13 06:52:16 CDBEnv::Open: LogDir=Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\database ErrorFile=Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\db.log
+2022-03-13 06:52:16 Cache configuration:
+2022-03-13 06:52:16 * Using 2.0MiB for block index database
+2022-03-13 06:52:16 * Using 8.0MiB for chain state database
+2022-03-13 06:52:16 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2022-03-13 06:52:16 init message: Loading block index...
+2022-03-13 06:52:16 Opening LevelDB in Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\blocks\index
+2022-03-13 06:52:16 Opened LevelDB successfully
+2022-03-13 06:52:16 Using obfuscation key for Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\blocks\index: 0000000000000000
+2022-03-13 06:52:16 LoadBlockIndexDB: last block file = 0
+2022-03-13 06:52:16 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2022-03-13 06:52:16 Checking all blk files are present...
+2022-03-13 06:52:16 LoadBlockIndexDB: transaction index disabled
+2022-03-13 06:52:16 Initializing databases...
+2022-03-13 06:52:16 Pre-allocating up to position 0x1000000 in blk00000.dat
+2022-03-13 06:52:16 Opening LevelDB in Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\chainstate
+2022-03-13 06:52:16 Opened LevelDB successfully
+2022-03-13 06:52:16 Using obfuscation key for Z:\home\ubuntu\workspace\bonocoin_daemon_aws\bonocoin_win_bin\data\chainstate: 51c35156e49c9143
+2022-03-13 06:52:16 init message: Rewinding blocks...
+2022-03-13 06:52:16  block index              18ms
+2022-03-13 06:52:16 init message: Loading wallet...
+2022-03-13 06:52:16 nFileVersion = 150100
+2022-03-13 06:52:16 Keys: 2002 plaintext, 0 encrypted, 2002 w/ metadata, 2002 total
+2022-03-13 06:52:16  wallet                   50ms
+2022-03-13 06:52:16 setKeyPool.size() = 2000
+2022-03-13 06:52:16 mapWallet.size() = 0
+2022-03-13 06:52:16 mapAddressBook.size() = 1
+2022-03-13 06:52:16 UpdateTip: new best=008d9de850c57af35504658f408ef6dcf2e026101b0d0b6ae51dd4d0ec11bb40 height=0 version=0x00000001 log2_work=20.000022 tx=1 date='2022-03-12 07:00:00' progress=1.000000 cache=0.0MiB(0txo)
+2022-03-13 06:52:16 mapBlockIndex.size() = 1
+2022-03-13 06:52:16 nBestHeight = 0
+2022-03-13 06:52:16 Failed to open mempool file from disk. Continuing anyway.
+2022-03-13 06:52:16 Bound to [::]:9555
+2022-03-13 06:52:16 Bound to 0.0.0.0:9555
+2022-03-13 06:52:16 init message: Loading P2P addresses...
+2022-03-13 06:52:16 Loaded 1 addresses from peers.dat  0ms
+2022-03-13 06:52:16 init message: Loading banlist...
+2022-03-13 06:52:16 init message: Starting network threads...
+2022-03-13 06:52:16 torcontrol thread start
+2022-03-13 06:52:16 init message: Done loading
+2022-03-13 06:52:16 msghand thread start
+2022-03-13 06:52:16 opencon thread start
+2022-03-13 06:52:16 addcon thread start
+2022-03-13 06:52:16 dnsseed thread start
+2022-03-13 06:52:16 net thread start
+2022-03-13 06:52:17 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:52:17 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:52:18 receive version message: /BonocoinCore:0.15.1/: version 70015, blocks=3, us=3.36.111.166:9555, peer=0
+2022-03-13 06:52:18 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:52:18 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:52:18 Leaving InitialBlockDownload (latching to false)
+2022-03-13 06:52:18 Pre-allocating up to position 0x100000 in rev00000.dat
+2022-03-13 06:52:18 UpdateTip: new best=31800f411616e65a13843b5a97200916a4a3f49a93c4dd2958c1c379589c8b1b height=1 version=0x20000000 log2_work=21.000022 tx=2 date='2022-03-12 12:53:28' progress=1.000000 cache=0.0MiB(1txo)
+2022-03-13 06:52:18 UpdateTip: new best=671a5192c2a8b0d06d272f281bc6c2473eec18eda3236e2a2900ab9a4a12fef7 height=2 version=0x20000000 log2_work=21.584985 tx=3 date='2022-03-12 13:53:53' progress=1.000000 cache=0.0MiB(2txo)
+2022-03-13 06:52:18 UpdateTip: new best=c0ee5f8f3bc51330c454290013c5e7746b9796e4500a513551622634ac8538da height=3 version=0x20000000 log2_work=22.000022 tx=4 date='2022-03-13 06:43:05' progress=1.000000 cache=0.0MiB(3txo)
+2022-03-13 06:52:18 receive version message: /BonocoinCore:0.15.1/: version 70015, blocks=3, us=3.36.111.166:9555, peer=1
+2022-03-13 06:52:20 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:52:20 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:52:24 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:52:24 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:52:27 P2P peers available. Skipped DNS seeding.
+2022-03-13 06:52:27 dnsseed thread exit
+2022-03-13 06:52:36 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:52:36 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:53:05 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:53:05 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:54:09 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:54:09 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed
+2022-03-13 06:55:07 tor: Error connecting to address 127.0.0.1:9051
+2022-03-13 06:55:07 tor: Re-initiating connection to Tor control port 127.0.0.1:9051 failed

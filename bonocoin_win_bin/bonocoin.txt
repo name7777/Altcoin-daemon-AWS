@@ -23,3 +23,6 @@ addnode=192.168.0.62:9555 #권원현
 #addnode=3.137.208.106:9555 #태수 aws
 #addnode=3.36.111.166:9555 #원현aws
 maxconnections=100
+
+
+git_test

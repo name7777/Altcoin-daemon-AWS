@@ -1,0 +1,7 @@
+{
+    "host" : "54.180.24.80",
+    "user" : "root",
+    "password" : "1234",
+    "database" : "project4_altcoin",
+    "connectionLimit" : 100
+}
